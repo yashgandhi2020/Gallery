@@ -1,0 +1,70 @@
+.gal {
+  margin: 50px 0px 20px 0px;
+  padding: 0;
+}
+
+.img1 {
+  border: 1px solid black;
+  padding: 20px 20px;
+}
+
+.img1:hover {
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: -900px;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 0.5s ease-in-out;
+}
+
+p {
+  position: absolute;
+  cursor: pointer;
+  top: -30px;
+  left: 1400px;
+  font-size: 25px;
+}
+
+.modal-dis {
+  display: block !important;
+  top: 0px !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.contain {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.img-cur {
+  margin: 10px 15px !important;
+  padding: 0 !important;
+  display: flex;
+  position: relative;
+}
+
+.prev {
+  display: flex;
+  top: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  height: 100%;
+  cursor: pointer;
+}
+span {
+  position: relative;
+  top: 350px !important;
+  font-size: 50px;
+}
+
+.next {
+  top: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  left: -40px;
+  cursor: pointer;
+}
